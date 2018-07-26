@@ -7,8 +7,9 @@
       <text class="userinfo-nickname">欢迎  {{userInfo.nickName}}</text>
     </block>
   </view>
-  <view class="usermotto">
+  <text wx:if="{{time}}" class='circle-grey ' style="margin-top:50rpx">{{time}}</text>
+  <view class="usermotto footer">
     <text class="user-motto">{{motto}}</text>
-     <text class='create-font' >create by cz</text>
+    <text class='create-font'>create by cz</text>
   </view>
 </view>

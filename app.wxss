@@ -1,4 +1,5 @@
 /**app.wxss**/
+
 .container {
   height: 100%;
   display: flex;
@@ -7,4 +8,51 @@
   justify-content: space-between;
   padding: 200rpx 0;
   box-sizing: border-box;
-} 
+}
+
+.footer {
+  height: 100px;
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.oval-pink {
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30rpx;
+  width: 3000rpx;
+  height: 100rpx;
+  background: #cfd8dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.corner {
+  color: #fff;
+  width: 250rpx;
+  height: 100rpx;
+  background: #09f;
+  -moz-border-radius: 8px; /*8px是圆角的角度，值越大则圆角效果越明显，如果修改此项，请修改以下两项的值，使之相同*/
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.circle-grey {
+  color: #fff;
+  border-radius: 50%;
+  font-size: 30rpx;
+  width: 120rpx;
+  height: 120rpx;
+  background: #cfd8dc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
